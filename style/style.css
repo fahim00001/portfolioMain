@@ -128,9 +128,61 @@ main section{
 .skills-container{
     display: flex;
     gap: 25px;
+    margin-top: 130px;
    
 }
 .skill{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume-container */
+.resume-column-title{
+    font-weight: bold;
+    font-size: 34px;
+}
+.resume_container{
+    display: flex;
+    gap: 30px;
+}
+.experience-title{
+   color:#474747 ;
+   font-weight: bold;
+   font-size: 25px;
+}
+.experience-sub-title{
+    color:#757575 ;
+    font-weight: 500;
+    font-size: 20px;
+}
+.experience-description{
+    color:#757575 ;
+    font-size: 16px;
+}
+
+.resume-download-btn{
+    margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.share-input{
+    padding: 3%;
+    color: #757575;
+    font-size: 16px;
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+.footer-column{
+    width: 50%;
+    
 }
